@@ -1,4 +1,4 @@
-$(function() {
-  $('header').hide();
-  $('header').slideToggle("slow");
-});
+// $(function() {
+//   $('header').hide();
+//   $('header').slideToggle("slow");
+// });
