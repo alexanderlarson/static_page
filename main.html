@@ -4,7 +4,9 @@
     <!-- META DATA -->
     <meta charset="utf-8" />
     <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" media="screen, projection" href="style.css" />
+    <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,900">
     <!-- JS jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -13,6 +15,7 @@
     <title>Alexander Larson</title>
 </head>
   <body>
+   <div class="container clearfix">
       <header>
         <nav>
           <ul class="nav_links">
@@ -28,10 +31,11 @@
           </ul>
         </nav>
     </header>
-    <div id="contact"></div>
-   <div class="container">
+<!--     <div id="contact"></div> -->
       <h1 class="copy">Hi. I'm Alex, a <a href="http://devbootcamp.com">Dev Bootcamp</a> graduate and aspiring Web Developer.</h1>
+      <div class="grid_5">
         <img id="photo" alt="Alex" src='alex_crop.jpg'>
+      </div>
     </div>
   </body>
 </html>
