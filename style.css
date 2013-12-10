@@ -14,6 +14,7 @@ html {
 .nav_links {
 	margin-top: 0em;
 	text-align: center;
+	padding: 0;
 }
 
 header {
@@ -52,8 +53,7 @@ li:hover {
 	float: right;
 	width: 50%;
 	color: #FFF;
-	font-size: 4.45em;
-	clear: both;
+	font-size: 445%;
 }
 
 #photo {
@@ -88,6 +88,39 @@ a {
 	width: 100%;
 }
 
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+header {
+	background-color: #222;
+}
+
+li {
+	background-color: #a8a8a8;
+	width: 90%
+}
+
+#resume {
+	padding: 1%;
+}
+
+#photo {
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	display: list-item;
+	margin-left: 70%;
+}
+
+
+.copy {
+	width: 100%;
+	margin-top: 260px;
+	font-size: 3em;
+	text-align: center;
+}
 
 
 }
