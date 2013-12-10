@@ -71,7 +71,7 @@ a {
 }
 
 /* mobile */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 639px) {
 
 .grid_1,
 .grid_2,
