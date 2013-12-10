@@ -71,7 +71,7 @@ a {
 }
 
 /* mobile */
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
 
 .grid_1,
 .grid_2,
@@ -121,6 +121,5 @@ li {
 	font-size: 3em;
 	text-align: center;
 }
-
 
 }
