@@ -3,7 +3,6 @@ html {
   background-color: #222;
 }
 
-
 #contact {
 	font-family: "Lato", Verdana, sans-serif;
 	color: #FFF;
@@ -71,7 +70,7 @@ a {
 }
 
 /* mobile */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 658px) {
 
 .grid_1,
 .grid_2,
