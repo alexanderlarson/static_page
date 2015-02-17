@@ -126,6 +126,12 @@ a:hover {
 	text-transform: uppercase;
 }
 
+@media screen and (max-width: 400px) {
+	.bl-box h2 {
+		padding: 0;
+	}
+}
+
 .bl-icon {
 	font-family: 'icomoon';
 	speak: none;
@@ -267,16 +273,23 @@ div.bl-panel-items > div > div {
 div.bl-panel-items > div > div h3 {
 	font-size: 2.4em;
 	font-weight: 300;
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 }
+
 
 div.bl-panel-items > div > div p {
 	font-size: 1.3em;
 }
 
-div.bl-panel-items > div > div img {
+.brand-image {
 	float: left;
 	margin: 0 20px 20px 0;
+	max-width: 100%;
+}
+
+.code-image {
+	display: block;
+	margin: 20px auto;
 	max-width: 100%;
 }
 
@@ -382,7 +395,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 	background: #079DD7;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #D49308;
+	background: #3ba5db;
 }
 .bl-main > section:nth-child(4).bl-expand {
 	background: #D43E08;
@@ -503,6 +516,29 @@ section.bl-expand .bl-icon-close {
 
 .contact li {
 	margin-top: 5%;
+}
+
+.visit-button {
+	border: none;
+	border-radius: 5px;
+	background-color: #efefef;
+	color: #000;
+	margin-top: 20px;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.visit-button:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+.code-copy {
+	display: block;
+}
+
+.cs-header {
+	color: #fff;
 }
 
 @media screen and (max-width: 46.5em) {
